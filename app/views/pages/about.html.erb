@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Bolanle Adisa</title>
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<style>body {background-color: rgb(114, 98, 98);}</style>
+
+<body>
+    <div class = "header">
+        <div class = "inner_header">
+            <div class = "logo_container">
+                <h1>MY <span>PORTFOLIO</span></h1>
+            </div>
+            <ul class = "navigation">
+                <li>
+                    <a href= "home.html"><span>Home</span> </a>
+                </li>
+                <li>
+                    <a href= "about.html"><span>About</span></a>
+                </li>
+                <li>
+                    <a href="experience.html"><span>Experience</span></a>
+                </li>
+                <li>
+                    <a href= "https://docs.google.com/document/d/1xhoQ6Mlh2-tLVOEITl2fh8_m310QxCT3uGKdVnkn9nc/edit"><span>Resume</span></a>
+                </li>
+                <li>
+                    <div id="toggle">
+        <i class="indicator"><span>mode</span></i>
+    </div>
+                </li>
+
+               <!-- <span style = "position: relative; top: 10px; left: 20px;"><button onclick="darkMode()">Mode</button></span>-->
+            
+            </ul>
+            
+        </div>
+        
+    </div>
+    
+    </header>
+
+
+    <p>
+        <br>
+    <h2>Hobbies</h2>
+    <p>
+        <br>
+        Travelling is my favorite thing to do! I am a very inquisitive person so traveling helps me explore and provide answers to a lot of the unanswered questions I have about the world.
+        As a 19 year old college student, I have not had the oppotunity to do much exploring but I hope to do a lot of that in the future. I am Nigerian and being from a country
+        with a beautiful and rich culture makes me value the culture of others as well. I hope to be able to see the beauty of other countries around the world. I also love going on short road
+        trips to places nearby like Houston and Dallas.
+        <br>
+        <br>
+        I love to work out; I started going to the gym consistently this year. My friends and family are very important to me so I love to spend time with them. I love to teach people and also learn. 
+        I like to keep myself busy so I am always working on a project. Lastly, I love to binge-watch TV shows!
+        <br>
+        <br>
+        Feel free to contact me using the links below!
+        <br>
+        <br>
+        <img src="hiking.jpg"></img>
+        <img src="roadtrip.jpg"></img>
+        <img src="kayaking.jpg"></img>
+
+        <script>
+            const body = document.querySelector('body');
+            const toggle = document.getElementById('toggle');
+            toggle.onclick = function(){
+                toggle.classList.toggle('active');
+                body.classList.toggle('active');
+            }
+        </script>
+    <!--<script>
+        function theGreatest() {
+          var x = document.getElementById("navigation");
+          if (x.className === "navigation") {
+            x.className += "responsive";
+          } else {
+            x.className = "navigation";
+          }
+        }
+    </script>-->
+    
+</body>
+
+<footer>
+    <p>CONTACT</p>
+    <a href="https://github.com/bolanle-adisa">You can find me on GitHub here</a>
+    <br>
+    <a href="https://www.linkedin.com/in/bolanleadisa">You can find me on Linkedin here</a>
+</footer>
+
+</html>

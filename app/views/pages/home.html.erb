@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Bolanle Adisa</title>
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<style>body {background-color: rgb(114, 98, 98);}</style>
+
+<header>
+    <div class = "header">
+        <div class = "inner_header">
+            <div class = "logo_container">
+                <h1>MY <span>PORTFOLIO</span></h1>
+            </div>
+            <ul class = "navigation">
+                <li>
+                    <a href= "home.html"><span>Home</span> </a>
+                </li>
+                <li>
+                    <a href= "about.html"><span>About</span></a>
+                </li>
+                <li>
+                    <a href= "experience.html"><span>Experience</span></a>
+                </li>
+                <li>
+                    <a href= "https://docs.google.com/document/d/1xhoQ6Mlh2-tLVOEITl2fh8_m310QxCT3uGKdVnkn9nc/edit"><span>Resume</span></a>
+                </li>
+                <li>
+                    <div id="toggle">
+        <i class="indicator"><span>mode</span></i>
+    </div>
+                </li>
+
+               <!-- <span style = "position: relative; top: 10px; left: 20px;"><button onclick="darkMode()">Mode</button></span>-->
+            
+            </ul>
+            
+        </div>
+        
+    </div>
+    
+    </header>
+
+    <div class="grid-2">
+        <div class="section-1">
+            <img src="logo.jpg">
+            <h2>Bolanle Adisa</h2>
+            <p>Huston-Tillotson University</p>
+            <p>Austin, Texas</p>
+            
+        </div>
+        <div class="section-2">
+            <h2>A little about me!</h2>
+            <p>
+                Hello! Welcome to my portfolio.</p>
+                <p>I am a Sophomore majoring in Computer Science and Mathematics at Huston-Tillotson University, Austin, Texas. I love to learn new things and travel. In the future, I hope to use my Computer Science degree and all the knowledge I acquire along the way to improve the way technology is used in the world. 
+                Currently, my goal is to be proficient in various programming languages in order to expand my knowledge in Computer Science and Technology and gain experience that would be useful to me in the work force.
+                <p>Thank you for visiting my portfolio!
+                </p>
+            </p>  
+        </div>
+    </div>
+
+    <script>
+        const body = document.querySelector('body');
+        const toggle = document.getElementById('toggle');
+        toggle.onclick = function(){
+            toggle.classList.toggle('active');
+            body.classList.toggle('active');
+        }
+    </script>
+<!--<script>
+    function theGreatest() {
+      var x = document.getElementById("navigation");
+      if (x.className === "navigation") {
+        x.className += "responsive";
+      } else {
+        x.className = "navigation";
+      }
+    }
+</script>-->
+
+
+
+</body>
+
+<footer>
+    <p>CONTACT</p>
+    <a href="https://github.com/bolanle-adisa">You can find me on GitHub here</a>
+    <br>
+    <a href="https://www.linkedin.com/in/bolanleadisa">You can find me on Linkedin here</a>
+</footer>
+
+</html>
